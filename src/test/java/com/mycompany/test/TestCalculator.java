@@ -19,7 +19,7 @@ public class TestCalculator {
     public void twoNumsCommaDelimitedReturnSum() throws Exception{
         Calculator calculator = new Calculator();
         
-        assertEquals(calculator.sum("2,3"), 6);
+        assertEquals(calculator.sum("2,3"), 5);
         assertEquals(calculator.sum("0,1"), 1);
         assertEquals(calculator.sum("2,0"), 2);
     }
