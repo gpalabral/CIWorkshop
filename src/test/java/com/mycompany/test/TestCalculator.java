@@ -13,7 +13,7 @@ public class TestCalculator {
         Calculator calculator = new Calculator();
         
         //Empty string returns zero
-        assertEquals(calculator.sum("x"),0);
+        assertEquals(calculator.sum(""),0);
     }
     
     public void twoNumsCommaDelimitedReturnSum() throws Exception{
@@ -27,7 +27,7 @@ public class TestCalculator {
     public void threeNumsCommaDelimitedReturnSum() throws Exception{
         Calculator calculator = new Calculator();
         
-        assertEquals(calculator.sum("2,3,5"), 11);
+        assertEquals(calculator.sum("2,3,5"), 10);
     }
     
     public void numbersGreaterThan100AreIgnored() throws Exception{
